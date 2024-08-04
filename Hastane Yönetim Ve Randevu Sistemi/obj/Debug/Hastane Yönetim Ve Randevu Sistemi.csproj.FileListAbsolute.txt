@@ -1,0 +1,12 @@
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\bin\Debug\Hastane Yönetim Ve Randevu Sistemi.exe.config
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\bin\Debug\Hastane Yönetim Ve Randevu Sistemi.exe
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\bin\Debug\Hastane Yönetim Ve Randevu Sistemi.pdb
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane Yönetim Ve Randevu Sistemi.csproj.AssemblyReference.cache
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.Form1.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.Properties.Resources.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane Yönetim Ve Randevu Sistemi.csproj.GenerateResource.cache
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane Yönetim Ve Randevu Sistemi.csproj.CoreCompileInputs.cache
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane Yönetim Ve Randevu Sistemi.exe
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane Yönetim Ve Randevu Sistemi.pdb
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.HastaGiriş.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.HastaÜyeOl.resources
