@@ -41,10 +41,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -63,7 +63,7 @@
             // 
             // txtmsktc
             // 
-            this.txtmsktc.Location = new System.Drawing.Point(215, 165);
+            this.txtmsktc.Location = new System.Drawing.Point(264, 185);
             this.txtmsktc.Mask = "00000000000";
             this.txtmsktc.Name = "txtmsktc";
             this.txtmsktc.Size = new System.Drawing.Size(100, 20);
@@ -72,7 +72,7 @@
             // 
             // txtsifre
             // 
-            this.txtsifre.Location = new System.Drawing.Point(215, 240);
+            this.txtsifre.Location = new System.Drawing.Point(264, 260);
             this.txtsifre.Name = "txtsifre";
             this.txtsifre.Size = new System.Drawing.Size(100, 20);
             this.txtsifre.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.Teal;
-            this.linkLabel1.Location = new System.Drawing.Point(110, 338);
+            this.linkLabel1.Location = new System.Drawing.Point(159, 358);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(125, 13);
             this.linkLabel1.TabIndex = 3;
@@ -93,12 +93,13 @@
             // 
             this.btngiris.BackColor = System.Drawing.Color.LightCyan;
             this.btngiris.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btngiris.Location = new System.Drawing.Point(136, 394);
+            this.btngiris.Location = new System.Drawing.Point(162, 417);
             this.btngiris.Name = "btngiris";
-            this.btngiris.Size = new System.Drawing.Size(101, 58);
+            this.btngiris.Size = new System.Drawing.Size(127, 72);
             this.btngiris.TabIndex = 4;
             this.btngiris.Text = "Giriş ";
             this.btngiris.UseVisualStyleBackColor = false;
+            this.btngiris.Click += new System.EventHandler(this.btngiris_Click);
             // 
             // label2
             // 
@@ -125,7 +126,7 @@
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(241, 315);
+            this.button2.Location = new System.Drawing.Point(290, 335);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(39, 50);
             this.button2.TabIndex = 7;
@@ -135,7 +136,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LavenderBlush;
-            this.panel1.Location = new System.Drawing.Point(77, 305);
+            this.panel1.Location = new System.Drawing.Point(126, 325);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(226, 74);
             this.panel1.TabIndex = 8;
@@ -145,7 +146,7 @@
             this.panel2.BackColor = System.Drawing.Color.LightCyan;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(13, 141);
+            this.panel2.Location = new System.Drawing.Point(62, 161);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(329, 149);
             this.panel2.TabIndex = 9;
@@ -154,7 +155,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.LightCyan;
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(77, 53);
+            this.panel3.Location = new System.Drawing.Point(126, 73);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(203, 72);
             this.panel3.TabIndex = 10;
@@ -168,10 +169,36 @@
             this.panel5.Controls.Add(this.button6);
             this.panel5.Location = new System.Drawing.Point(-3, -2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(372, 38);
+            this.panel5.Size = new System.Drawing.Size(461, 38);
             this.panel5.TabIndex = 16;
             this.panel5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel5_MouseDown);
             this.panel5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel5_MouseMove);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(366, 8);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(25, 24);
+            this.button4.TabIndex = 18;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(397, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 24);
+            this.button1.TabIndex = 18;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -179,7 +206,7 @@
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(340, 8);
+            this.button3.Location = new System.Drawing.Point(428, 8);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(25, 24);
             this.button3.TabIndex = 17;
@@ -198,38 +225,12 @@
             this.button6.TabIndex = 14;
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(309, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 24);
-            this.button1.TabIndex = 18;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(278, 8);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 24);
-            this.button4.TabIndex = 18;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // HastaGiriş
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(367, 465);
+            this.ClientSize = new System.Drawing.Size(456, 521);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btngiris);
@@ -245,6 +246,7 @@
             this.Opacity = 0.98D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HastaGiriş";
+            this.Load += new System.EventHandler(this.HastaGiriş_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HastaGiriş_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.HastaGiriş_MouseMove);
             this.panel2.ResumeLayout(false);

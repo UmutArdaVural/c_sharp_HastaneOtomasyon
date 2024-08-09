@@ -10,3 +10,14 @@ C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastan
 C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane Yönetim Ve Randevu Sistemi.pdb
 C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.HastaGiriş.resources
 C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.HastaÜyeOl.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.HastaRandevu.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.DoktorBilgiFormu.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.DoktorBilgiGüncelle.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.DoktorGiriş.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.Duyurular.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.HastaBilgiGüncelle.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.SekreterGiriş.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.Sekreterİşlemler.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.SekreterDoktorEkle.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.Branspaneli.resources
+C:\Users\umuta\source\repos\Hastane Yönetim Ve Randevu Sistemi\obj\Debug\Hastane_Yönetim_Ve_Randevu_Sistemi.RandevuListesi.resources

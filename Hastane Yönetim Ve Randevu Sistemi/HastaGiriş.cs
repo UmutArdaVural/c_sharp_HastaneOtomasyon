@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Hastane_Yönetim_Ve_Randevu_Sistemi
 {
@@ -72,6 +73,35 @@ namespace Hastane_Yönetim_Ve_Randevu_Sistemi
             Form1 form1 = new Form1();
             form1.Show();
             this.Hide();
+        }
+        Sqlaglantı sqlaglantı = new Sqlaglantı();
+
+        private void btngiris_Click(object sender, EventArgs e)
+        {
+            SqlCommand komutumuz = new SqlCommand("SELECT * FROM Tbl_Hastalar WHERE HastaTc = @tc and HastaSifre =@sifre", sqlaglantı.Baglantı());
+            komutumuz.Parameters.AddWithValue("@tc",txtmsktc.Text);
+            komutumuz.Parameters.AddWithValue("@sifre", txtsifre.Text);
+            
+            SqlDataReader dr = komutumuz.ExecuteReader();   
+            if (dr.Read())
+            {   
+                
+                HastaRandevu hastaRandevu = new HastaRandevu();
+                hastaRandevu.tc = txtmsktc.Text;
+                hastaRandevu.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Hatalı Bilgiler ");
+            }
+            sqlaglantı.Baglantı().Close();
+           
+        }
+
+        private void HastaGiriş_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void HastaGiriş_MouseMove(object sender, MouseEventArgs e)

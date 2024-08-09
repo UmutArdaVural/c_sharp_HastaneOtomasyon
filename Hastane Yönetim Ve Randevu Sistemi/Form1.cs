@@ -89,6 +89,20 @@ namespace Hastane_Yönetim_Ve_Randevu_Sistemi
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DoktorGiriş aaaa = new DoktorGiriş();
+            aaaa.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SekreterGiriş aösek= new SekreterGiriş();
+            aösek.Show(); this.Hide();
+
+        }
+
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             x=e.X; y=e.Y;
